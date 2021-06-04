@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>HORO</title>
+</head>
+<body>
+     <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
+            <img src="home logo.jpeg" height=50 width=50>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="talk.html">Talk to Astrologer</a></li>
+           <li><a href="horoscope.html">HOROSCOPE</a></li>
+            <li><a href="puja.html">PUJA</a></li>
+             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="remedies1.html">REMEDIES
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="remedies1.html">Gemstones</a></li>
+                <li><a href="remedies2.html">Rudraksha</a></li>
+                <li><a href="remedies3.html">Yantra</a></li>
+                <li><a href="remedies4.html">Remedies Solution</a></li>
+              </ul>
+            </li>
+            <li><a href="vastu.html">VASTU</a></li>
+           
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th"></span>
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+            </li>
+            <li><a href="home.html"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+          </ul>
+        </div>
+      </nav>  
+
+
+  <div class="hero-image">
+    <div class="hero-text">
+     <a href="ariessign.html"> <img src="aries.jpg" height="150" width="150"></a>
+     <a href="taurussign.html"><img src="taurus.jpg" height="150" width="150"></a>
+     <a href="geminisign.html"><img src="gemini.jpg" height="150" width="150"></a>
+    <a href="cancersign.html"> <img src="cancer.jpg" height="150" width="150"></a>
+    <a href="leosign.html"> <img src="leo.jpg" height="150" width="150"></a>
+    <a href="virgosign.html"><img src="virgo.jpg" height="150" width="150"></a><br><br>
+    <a href="librasign.html"><img src="libra.jpg" height="150" width="150"></a>
+    <a href="scorpiosign.html"><img src="scorpio.jpg" height="150" width="150"></a>
+    <a href="sagittariussign.html"> <img src="sagittarius.jpg" height="150" width="150"></a>
+    <a href="capricornsign.html"><img src="capricorn.jpg" height="150" width="150"></a>
+    <a href="aquariussign.html"> <img src="aquarius.jpg" height="150" width="150" ></a>
+    <a href="piscessign.html"> <img src="pisces.jpg" height="150" width="150"></a><br><br>
+    
+    
+   
+  </div>
+</div><br></br>
+    <center><form action="">
+    <label for="sign" >Select Your Birth Month And Date :</label><br>
+    <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+    <option value="" style="background-color:#98FB98;">Select Only 1st Letter Of Your Name</option>
+    <option value="ariessign.html" style="background-color:#FFE289;"  >Chu,Che,Cho,La,Lee,Lu,Ley,Lo,A</option>
+    <option value="taurussign.html" style="background-color:#F08080;">I,U,E,O,Va,Vi,Vu,Ve,Vo,W</option></a>
+    <option value="geminisign.html" style="background-color:#FFE289;">Ka,ki,Ku,Gha,Na,Ca,Ka,Ko,Ha,Q</option>
+    <option value="cancersign.html"  style="background-color:#F08080;">Hi,Hu,Ho,Da,Di,Du,De,Do</option>
+    <option value="leosign.html" style="background-color:#FFE289;">Ma,Mi,Mu,Me,Mo,Ta,Ti,Tu,Te</option>
+    <option value="virgosign.html"  style="background-color:#F08080;">To,Pa,Pi,Pu,Sha,Na,Tha,Pe,Po</option>
+    <option value="librasign.html" style="background-color:#FFE289;">Ra,Ri,Ru,Re,Ro,Tha,Thi,Thu,The</option>
+    <option value="scorpiosign.html"  style="background-color:#F08080;">Tho,Na,Ne,Nu,Ne,No,Ya,Yi,Yu</option>
+    <option value="sagittariussign.html" style="background-color:#FFE289;">Ye,Yo,Ba,Bi,Bu,Dha,Bha,Daa,Be,F</option>
+    <option value="capricornsign.html"  style="background-color:#F08080;">Bo,Ja,Ji,Si,Su,Se,So,Ga,Gi</option>
+    <option value="aquariussign.html" style="background-color:#FFE289;">Gu,Ge,Go,Sa,Si,Su,Se,Sho,Da</option>
+    <option value="piscessign.html"  style="background-color:#F08080;">Di,Dhu,Kha,Jha,Tha,Dhe,Doo,Ca,Ci,X,Z</option>
+    </select>
+ </form>
+
+
+
+ <style>
+   .hero-image {
+  background-image: url("b images.jpg");
+  height:500px;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.select{
+  background-color:blue;
+}
+
+
+
+ </style>
+</body>
+</html>
